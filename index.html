@@ -24,18 +24,25 @@
             text-align: center;
             padding: 50px;
         }
+        .product-container {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        img {
+            max-width: 100%;
+        }
+        a {
+            color: #0073e6;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
-    <h1>Thank You for Your Interest!</h1>
-    <p>You will be redirected to the product page shortly.</p>
-    <p>If you are not redirected automatically, please <a href="https://s.lazada.com.ph/s.nbZkb?cc">click here</a>.</p>
-
-    <!-- Redirect Script -->
-    <script>
-        setTimeout(function() {
-            window.location.href = "https://s.lazada.com.ph/s.nbZkb?cc"; // Redirects to your affiliate link after 2 seconds
-        }, 2000); // 2000 milliseconds = 2 seconds
-    </script>
+    <div class="product-container">
+        <h1>OSAKA - Japan Lady Bicycle with Basket</h1>
+        <img src="https://stellar-semolina-6534b2.netlify.app/assets/bicycle.jpg" alt="OSAKA - Japan Lady Bicycle with Basket">
+        <p>High quality brand new Korean/Japan City Bike, Size 24 fit to 8 years old and above (fit to adult also). Steel frame, Soft foam saddle, complete accessories with front basket and passenger or package carrier.</p>
+        <p><a href="https://s.lazada.com.ph/s.nbZkb?cc" target="_blank">View Product on Lazada</a></p>
+    </div>
 </body>
 </html>
